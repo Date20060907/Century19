@@ -1,9 +1,57 @@
 {
-  "mod_elements": [],
-  "variable_elements": [],
+  "mod_elements": [
+    {
+      "name": "Weight",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/century/potion/WeightMobEffect.java"
+        ]
+      },
+      "path": "~/potions/weight"
+    },
+    {
+      "name": "Weight01",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weight_01",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/century/procedures/Weight01Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/potions/weight"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "weight",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "max_weight",
+      "type": "number",
+      "scope": "map",
+      "value": "100.0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "effect.century.weight": "Вес"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -51,6 +99,15 @@
           },
           {
             "name": "oil",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "potions",
+        "children": [
+          {
+            "name": "weight",
             "children": []
           }
         ]
