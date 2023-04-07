@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "century:blocks/xyi",
+    "up": "century:blocks/xyi",
+    "north": "century:blocks/xyi",
+    "east": "century:blocks/xyi",
+    "south": "century:blocks/xyi",
+    "west": "century:blocks/xyi",
+    "particle": "century:blocks/xyi"
+  }
+}
