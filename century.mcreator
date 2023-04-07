@@ -7,7 +7,55 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "blocks",
+        "children": [
+          {
+            "name": "ore",
+            "children": []
+          },
+          {
+            "name": "machines",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "items",
+        "children": [
+          {
+            "name": "weapons",
+            "children": [
+              {
+                "name": "near",
+                "children": []
+              },
+              {
+                "name": "further",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "tools",
+            "children": []
+          },
+          {
+            "name": "metals",
+            "children": []
+          },
+          {
+            "name": "alloys",
+            "children": []
+          },
+          {
+            "name": "oil",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "century",
