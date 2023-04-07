@@ -1,27 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "XYI",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xyi",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/century/block/XYIBlock.java",
-          "src/main/resources/assets/century/blockstates/xyi.json",
-          "src/main/resources/assets/century/models/block/xyi.json",
-          "src/main/resources/assets/century/models/item/xyi.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "block.century.xyi": "XYI"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
