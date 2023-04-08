@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="century19"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="1, MCreator"
+authors="HARSIS, KismaYT"
 
 [[dependencies.century]]
     modId="minecraft"

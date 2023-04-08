@@ -118,7 +118,7 @@
     "modid": "century",
     "modName": "century19",
     "version": "1.0.0",
-    "author": "1, MCreator",
+    "author": "HARSIS, KismaYT",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -128,6 +128,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.century",
     "lockBaseModFiles": false
   },
