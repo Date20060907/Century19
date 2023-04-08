@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "bronze_axe"
+      },
+      "name": "default"
+    },
+    "cast_iron_axe": {
+      "map": {
+        "1": "cast_iron_axe"
+      },
+      "name": "cast_iron_axe"
+    }
+  }
+}
