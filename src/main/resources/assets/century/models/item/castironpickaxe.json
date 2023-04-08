@@ -1,0 +1,7 @@
+{
+  "parent": "century:custom/pickaxe",
+  "textures": {
+    "1": "century:blocks/cast_iron_pickaxe",
+    "particle": "century:items/cast_iron_ingot"
+  }
+}

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "copper_ore",
+    "texture": "copper_chip",
     "customModelName": "Normal",
     "name": "Copperore 1",
     "rarity": "COMMON",

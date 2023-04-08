@@ -1,0 +1,7 @@
+{
+  "parent": "century:custom/axe",
+  "textures": {
+    "1": "century:blocks/bronze_axe",
+    "particle": "century:items/bronze_ingot"
+  }
+}

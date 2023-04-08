@@ -159,6 +159,66 @@
         ]
       },
       "path": "~/blocks/ore/sulfur"
+    },
+    {
+      "name": "Bronzeaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronzeaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/century/models/item/bronzeaxe.json",
+          "src/main/java/net/mcreator/century/item/BronzeaxeItem.java"
+        ]
+      },
+      "path": "~/items/tools/bronze"
+    },
+    {
+      "name": "Bronzepickaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronzepickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/century/item/BronzepickaxeItem.java",
+          "src/main/resources/assets/century/models/item/bronzepickaxe.json"
+        ]
+      },
+      "path": "~/items/tools/bronze"
+    },
+    {
+      "name": "Castironaxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "castironaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/century/item/CastironaxeItem.java",
+          "src/main/resources/assets/century/models/item/castironaxe.json"
+        ]
+      },
+      "path": "~/items/tools/castiron"
+    },
+    {
+      "name": "Castironpickaxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "castironpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/century/item/CastironpickaxeItem.java",
+          "src/main/resources/assets/century/models/item/castironpickaxe.json"
+        ]
+      },
+      "path": "~/items/tools/castiron"
     }
   ],
   "variable_elements": [
@@ -179,13 +239,17 @@
   "language_map": {
     "en_us": {
       "block.century.saltpeterore": "Saltpeterore",
+      "item.century.castironaxe": "Чугуный топор",
+      "item.century.bronzepickaxe": "Бронзовая кирка",
       "item.century.sulfur": "Sulfur",
-      "block.century.ironore": "Ironore",
+      "item.century.bronzeaxe": "Бронзовый топор",
       "item.century.copperore_1": "Copperore 1",
       "block.century.sulfurore": "Sulfurore",
-      "item.century.ironorechip": "Ironorechip",
+      "item.century.castironpickaxe": "Чугуная кирка",
       "block.century.copperore": "Copperore",
       "item.century.saltpeterorechip": "Saltpeterorechip",
+      "block.century.ironore": "Ironore",
+      "item.century.ironorechip": "Ironorechip",
       "effect.century.weight": "Вес"
     }
   },
@@ -240,7 +304,16 @@
           },
           {
             "name": "tools",
-            "children": []
+            "children": [
+              {
+                "name": "bronze",
+                "children": []
+              },
+              {
+                "name": "castiron",
+                "children": []
+              }
+            ]
           },
           {
             "name": "metals",
