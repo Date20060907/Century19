@@ -1,5 +1,11 @@
 {
+  "block.century.saltpeterore": "Saltpeterore",
+  "item.century.sulfur": "Sulfur",
+  "block.century.ironore": "Ironore",
   "item.century.copperore_1": "Copperore 1",
+  "block.century.sulfurore": "Sulfurore",
+  "item.century.ironorechip": "Ironorechip",
   "block.century.copperore": "Copperore",
+  "item.century.saltpeterorechip": "Saltpeterorechip",
   "effect.century.weight": "Вес"
 }

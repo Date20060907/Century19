@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "century:blocks/iron_ore",
+    "up": "century:blocks/iron_ore",
+    "north": "century:blocks/iron_ore",
+    "east": "century:blocks/iron_ore",
+    "south": "century:blocks/iron_ore",
+    "west": "century:blocks/iron_ore",
+    "particle": "century:blocks/iron_ore"
+  }
+}

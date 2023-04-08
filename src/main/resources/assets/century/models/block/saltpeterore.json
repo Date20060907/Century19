@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "century:blocks/saltpeter_ore",
+    "up": "century:blocks/saltpeter_ore",
+    "north": "century:blocks/saltpeter_ore",
+    "east": "century:blocks/saltpeter_ore",
+    "south": "century:blocks/saltpeter_ore",
+    "west": "century:blocks/saltpeter_ore",
+    "particle": "century:blocks/saltpeter_ore"
+  }
+}

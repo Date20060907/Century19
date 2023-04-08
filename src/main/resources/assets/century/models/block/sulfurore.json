@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "century:blocks/sulfur_ore",
+    "up": "century:blocks/sulfur_ore",
+    "north": "century:blocks/sulfur_ore",
+    "east": "century:blocks/sulfur_ore",
+    "south": "century:blocks/sulfur_ore",
+    "west": "century:blocks/sulfur_ore",
+    "particle": "century:blocks/sulfur_ore"
+  }
+}

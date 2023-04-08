@@ -63,6 +63,102 @@
         ]
       },
       "path": "~/blocks/ore/copper"
+    },
+    {
+      "name": "Ironore",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/century/block/IronoreBlock.java",
+          "src/main/resources/assets/century/models/item/ironore.json",
+          "src/main/resources/assets/century/models/block/ironore.json",
+          "src/main/resources/assets/century/blockstates/ironore.json"
+        ]
+      },
+      "path": "~/blocks/ore/iron"
+    },
+    {
+      "name": "Ironorechip",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironorechip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/century/models/item/ironorechip.json",
+          "src/main/java/net/mcreator/century/item/IronorechipItem.java"
+        ]
+      },
+      "path": "~/blocks/ore/iron"
+    },
+    {
+      "name": "Saltpeterorechip",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saltpeterorechip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/century/models/item/saltpeterorechip.json",
+          "src/main/java/net/mcreator/century/item/SaltpeterorechipItem.java"
+        ]
+      },
+      "path": "~/blocks/ore/saltpeter"
+    },
+    {
+      "name": "Saltpeterore",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saltpeterore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/century/blockstates/saltpeterore.json",
+          "src/main/resources/assets/century/models/block/saltpeterore.json",
+          "src/main/resources/assets/century/models/item/saltpeterore.json",
+          "src/main/java/net/mcreator/century/block/SaltpeteroreBlock.java"
+        ]
+      },
+      "path": "~/blocks/ore/saltpeter"
+    },
+    {
+      "name": "Sulfur",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/century/models/item/sulfur.json",
+          "src/main/java/net/mcreator/century/item/SulfurItem.java"
+        ]
+      },
+      "path": "~/blocks/ore/sulfur"
+    },
+    {
+      "name": "Sulfurore",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfurore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/century/models/item/sulfurore.json",
+          "src/main/java/net/mcreator/century/block/SulfuroreBlock.java",
+          "src/main/resources/assets/century/blockstates/sulfurore.json",
+          "src/main/resources/assets/century/models/block/sulfurore.json"
+        ]
+      },
+      "path": "~/blocks/ore/sulfur"
     }
   ],
   "variable_elements": [
@@ -82,8 +178,14 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.century.saltpeterore": "Saltpeterore",
+      "item.century.sulfur": "Sulfur",
+      "block.century.ironore": "Ironore",
       "item.century.copperore_1": "Copperore 1",
+      "block.century.sulfurore": "Sulfurore",
+      "item.century.ironorechip": "Ironorechip",
       "block.century.copperore": "Copperore",
+      "item.century.saltpeterorechip": "Saltpeterorechip",
       "effect.century.weight": "Вес"
     }
   },
@@ -102,6 +204,14 @@
               },
               {
                 "name": "iron",
+                "children": []
+              },
+              {
+                "name": "saltpeter",
+                "children": []
+              },
+              {
+                "name": "sulfur",
                 "children": []
               }
             ]
