@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "sulfur_chip",
     "customModelName": "Normal",
-    "name": "Sulfur",
+    "name": "Сера",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MATERIALS"
@@ -24,9 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Сера"
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

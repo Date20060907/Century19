@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "copper_chip",
+    "texture": "cast_iron_ingot",
     "customModelName": "Normal",
-    "name": "Медная руда",
+    "name": "Чугуный слиток",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,
