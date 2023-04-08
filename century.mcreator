@@ -219,6 +219,36 @@
         ]
       },
       "path": "~/items/tools/castiron"
+    },
+    {
+      "name": "Bronze",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/century/item/BronzeItem.java",
+          "src/main/resources/assets/century/models/item/bronze.json"
+        ]
+      },
+      "path": "~/items/metals"
+    },
+    {
+      "name": "Castiron",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "castiron",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/century/models/item/castiron.json",
+          "src/main/java/net/mcreator/century/item/CastironItem.java"
+        ]
+      },
+      "path": "~/items/metals"
     }
   ],
   "variable_elements": [
@@ -238,18 +268,20 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.century.saltpeterore": "Saltpeterore",
+      "block.century.saltpeterore": "Силитровая руда",
       "item.century.castironaxe": "Чугуный топор",
       "item.century.bronzepickaxe": "Бронзовая кирка",
-      "item.century.sulfur": "Sulfur",
+      "item.century.sulfur": "Сера",
+      "item.century.castiron": "Чугуный слиток",
       "item.century.bronzeaxe": "Бронзовый топор",
-      "item.century.copperore_1": "Copperore 1",
-      "block.century.sulfurore": "Sulfurore",
+      "item.century.copperore_1": "Медная руда",
+      "block.century.sulfurore": "Серная руда",
       "item.century.castironpickaxe": "Чугуная кирка",
-      "block.century.copperore": "Copperore",
-      "item.century.saltpeterorechip": "Saltpeterorechip",
-      "block.century.ironore": "Ironore",
-      "item.century.ironorechip": "Ironorechip",
+      "item.century.bronze": "Бронзовый слиток",
+      "block.century.copperore": "Медная руда",
+      "item.century.saltpeterorechip": "Силитровая руда",
+      "block.century.ironore": "Железная руда",
+      "item.century.ironorechip": "Железная руда",
       "effect.century.weight": "Вес"
     }
   },
