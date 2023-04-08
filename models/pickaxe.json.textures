@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "bronze_pickaxe"
+      },
+      "name": "default"
+    },
+    "cast_iron": {
+      "map": {
+        "1": "cast_iron_pickaxe"
+      },
+      "name": "cast_iron"
+    }
+  }
+}
