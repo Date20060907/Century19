@@ -19,10 +19,8 @@ import net.mcreator.century.item.IronorechipItem;
 import net.mcreator.century.item.Copperore1Item;
 import net.mcreator.century.item.CastironpickaxeItem;
 import net.mcreator.century.item.CastironaxeItem;
-import net.mcreator.century.item.CastironItem;
 import net.mcreator.century.item.BronzepickaxeItem;
 import net.mcreator.century.item.BronzeaxeItem;
-import net.mcreator.century.item.BronzeItem;
 import net.mcreator.century.CenturyMod;
 
 public class CenturyModItems {
@@ -39,8 +37,6 @@ public class CenturyModItems {
 	public static final RegistryObject<Item> BRONZEPICKAXE = REGISTRY.register("bronzepickaxe", () -> new BronzepickaxeItem());
 	public static final RegistryObject<Item> CASTIRONAXE = REGISTRY.register("castironaxe", () -> new CastironaxeItem());
 	public static final RegistryObject<Item> CASTIRONPICKAXE = REGISTRY.register("castironpickaxe", () -> new CastironpickaxeItem());
-	public static final RegistryObject<Item> BRONZE = REGISTRY.register("bronze", () -> new BronzeItem());
-	public static final RegistryObject<Item> CASTIRON = REGISTRY.register("castiron", () -> new CastironItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
