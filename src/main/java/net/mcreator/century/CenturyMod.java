@@ -27,8 +27,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.century.init.CenturyModMobEffects;
-import net.mcreator.century.init.CenturyModItems;
-import net.mcreator.century.init.CenturyModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,8 +43,6 @@ public class CenturyMod {
 	public CenturyMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		CenturyModBlocks.REGISTRY.register(bus);
-		CenturyModItems.REGISTRY.register(bus);
 
 		CenturyModMobEffects.REGISTRY.register(bus);
 
