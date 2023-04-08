@@ -31,6 +31,38 @@
         ]
       },
       "path": "~/potions/weight"
+    },
+    {
+      "name": "Copperore1",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperore_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/century/item/Copperore1Item.java",
+          "src/main/resources/assets/century/models/item/copperore_1.json"
+        ]
+      },
+      "path": "~/blocks/ore/copper"
+    },
+    {
+      "name": "Copperore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/century/models/item/copperore.json",
+          "src/main/resources/assets/century/blockstates/copperore.json",
+          "src/main/resources/assets/century/models/block/copperore.json",
+          "src/main/java/net/mcreator/century/block/CopperoreBlock.java"
+        ]
+      },
+      "path": "~/blocks/ore/copper"
     }
   ],
   "variable_elements": [
@@ -50,6 +82,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.century.copperore_1": "Copperore 1",
+      "block.century.copperore": "Copperore",
       "effect.century.weight": "Вес"
     }
   },
@@ -61,7 +95,12 @@
         "children": [
           {
             "name": "ore",
-            "children": []
+            "children": [
+              {
+                "name": "copper",
+                "children": []
+              }
+            ]
           },
           {
             "name": "machines",
