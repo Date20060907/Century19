@@ -99,6 +99,10 @@
               {
                 "name": "copper",
                 "children": []
+              },
+              {
+                "name": "iron",
+                "children": []
               }
             ]
           },
